@@ -1,0 +1,130 @@
+# -*- coding: utf-8 -*-
+
+################################################################################
+## Form generated from reading UI file 'mainwindow.ui'
+##
+## Created by: Qt User Interface Compiler version 5.15.1
+##
+## WARNING! All changes made in this file will be lost when recompiling UI file!
+################################################################################
+
+from PySide2.QtCore import *
+from PySide2.QtGui import *
+from PySide2.QtWidgets import *
+
+
+class Ui_MainWindow(object):
+    def setupUi(self, MainWindow):
+        if not MainWindow.objectName():
+            MainWindow.setObjectName(u"MainWindow")
+        MainWindow.resize(403, 575)
+        self.centralwidget = QWidget(MainWindow)
+        self.centralwidget.setObjectName(u"centralwidget")
+        self.label = QLabel(self.centralwidget)
+        self.label.setObjectName(u"label")
+        self.label.setGeometry(QRect(50, 30, 51, 31))
+        self.label_2 = QLabel(self.centralwidget)
+        self.label_2.setObjectName(u"label_2")
+        self.label_2.setGeometry(QRect(170, 90, 47, 13))
+        self.label_3 = QLabel(self.centralwidget)
+        self.label_3.setObjectName(u"label_3")
+        self.label_3.setGeometry(QRect(170, 160, 51, 16))
+        self.label_4 = QLabel(self.centralwidget)
+        self.label_4.setObjectName(u"label_4")
+        self.label_4.setGeometry(QRect(50, 240, 51, 21))
+        self.label_5 = QLabel(self.centralwidget)
+        self.label_5.setObjectName(u"label_5")
+        self.label_5.setGeometry(QRect(50, 280, 51, 21))
+        self.spinBox = QSpinBox(self.centralwidget)
+        self.spinBox.setObjectName(u"spinBox")
+        self.spinBox.setGeometry(QRect(110, 120, 42, 22))
+        self.spinBox_2 = QSpinBox(self.centralwidget)
+        self.spinBox_2.setObjectName(u"spinBox_2")
+        self.spinBox_2.setGeometry(QRect(230, 120, 42, 22))
+        self.spinBox_3 = QSpinBox(self.centralwidget)
+        self.spinBox_3.setObjectName(u"spinBox_3")
+        self.spinBox_3.setGeometry(QRect(110, 190, 42, 22))
+        self.spinBox_4 = QSpinBox(self.centralwidget)
+        self.spinBox_4.setObjectName(u"spinBox_4")
+        self.spinBox_4.setGeometry(QRect(230, 190, 42, 22))
+        self.label_6 = QLabel(self.centralwidget)
+        self.label_6.setObjectName(u"label_6")
+        self.label_6.setGeometry(QRect(90, 120, 41, 21))
+        self.label_7 = QLabel(self.centralwidget)
+        self.label_7.setObjectName(u"label_7")
+        self.label_7.setGeometry(QRect(210, 120, 51, 21))
+        self.label_8 = QLabel(self.centralwidget)
+        self.label_8.setObjectName(u"label_8")
+        self.label_8.setGeometry(QRect(90, 190, 51, 21))
+        self.label_9 = QLabel(self.centralwidget)
+        self.label_9.setObjectName(u"label_9")
+        self.label_9.setGeometry(QRect(210, 190, 51, 21))
+        self.spinBox_5 = QSpinBox(self.centralwidget)
+        self.spinBox_5.setObjectName(u"spinBox_5")
+        self.spinBox_5.setGeometry(QRect(110, 240, 91, 21))
+        self.spinBox_6 = QSpinBox(self.centralwidget)
+        self.spinBox_6.setObjectName(u"spinBox_6")
+        self.spinBox_6.setGeometry(QRect(130, 280, 42, 22))
+        self.spinBox_7 = QSpinBox(self.centralwidget)
+        self.spinBox_7.setObjectName(u"spinBox_7")
+        self.spinBox_7.setGeometry(QRect(220, 280, 42, 22))
+        self.spinBox_8 = QSpinBox(self.centralwidget)
+        self.spinBox_8.setObjectName(u"spinBox_8")
+        self.spinBox_8.setGeometry(QRect(310, 280, 42, 22))
+        self.label_10 = QLabel(self.centralwidget)
+        self.label_10.setObjectName(u"label_10")
+        self.label_10.setGeometry(QRect(120, 280, 51, 21))
+        self.label_11 = QLabel(self.centralwidget)
+        self.label_11.setObjectName(u"label_11")
+        self.label_11.setGeometry(QRect(210, 280, 51, 21))
+        self.label_12 = QLabel(self.centralwidget)
+        self.label_12.setObjectName(u"label_12")
+        self.label_12.setGeometry(QRect(300, 280, 51, 21))
+        self.groupBox = QGroupBox(self.centralwidget)
+        self.groupBox.setObjectName(u"groupBox")
+        self.groupBox.setGeometry(QRect(30, 10, 351, 321))
+        self.lineEdit = QLineEdit(self.groupBox)
+        self.lineEdit.setObjectName(u"lineEdit")
+        self.lineEdit.setGeometry(QRect(40, 20, 113, 31))
+        self.pushButton = QPushButton(self.centralwidget)
+        self.pushButton.setObjectName(u"pushButton")
+        self.pushButton.setGeometry(QRect(70, 350, 75, 23))
+        self.pushButton_2 = QPushButton(self.centralwidget)
+        self.pushButton_2.setObjectName(u"pushButton_2")
+        self.pushButton_2.setGeometry(QRect(240, 350, 75, 23))
+        self.plainTextEdit_2 = QPlainTextEdit(self.centralwidget)
+        self.plainTextEdit_2.setObjectName(u"plainTextEdit_2")
+        self.plainTextEdit_2.setGeometry(QRect(30, 380, 351, 151))
+        MainWindow.setCentralWidget(self.centralwidget)
+        self.menubar = QMenuBar(MainWindow)
+        self.menubar.setObjectName(u"menubar")
+        self.menubar.setGeometry(QRect(0, 0, 403, 21))
+        MainWindow.setMenuBar(self.menubar)
+        self.statusbar = QStatusBar(MainWindow)
+        self.statusbar.setObjectName(u"statusbar")
+        MainWindow.setStatusBar(self.statusbar)
+
+        self.retranslateUi(MainWindow)
+
+        QMetaObject.connectSlotsByName(MainWindow)
+    # setupUi
+
+    def retranslateUi(self, MainWindow):
+        MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"Particulas", None))
+        self.label.setText(QCoreApplication.translate("MainWindow", u"ID:", None))
+        self.label_2.setText(QCoreApplication.translate("MainWindow", u"ORIGEN", None))
+        self.label_3.setText(QCoreApplication.translate("MainWindow", u"DESTINO", None))
+        self.label_4.setText(QCoreApplication.translate("MainWindow", u"Velocidad:", None))
+        self.label_5.setText(QCoreApplication.translate("MainWindow", u"Color:", None))
+        self.label_6.setText(QCoreApplication.translate("MainWindow", u"X:", None))
+        self.label_7.setText(QCoreApplication.translate("MainWindow", u"Y:", None))
+        self.label_8.setText(QCoreApplication.translate("MainWindow", u"X:", None))
+        self.label_9.setText(QCoreApplication.translate("MainWindow", u"Y:", None))
+        self.label_10.setText(QCoreApplication.translate("MainWindow", u"R", None))
+        self.label_11.setText(QCoreApplication.translate("MainWindow", u"G", None))
+        self.label_12.setText(QCoreApplication.translate("MainWindow", u"B", None))
+        self.groupBox.setTitle(QCoreApplication.translate("MainWindow", u"PARTICULAS", None))
+        self.pushButton.setText(QCoreApplication.translate("MainWindow", u"AGREGAR", None))
+        self.pushButton_2.setText(QCoreApplication.translate("MainWindow", u"MOSTRAR", None))
+    # retranslateUi
+
